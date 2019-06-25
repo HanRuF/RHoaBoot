@@ -30,7 +30,9 @@ public class danli extends WeChatBot {
                 System.out.println("sss"+message.getFromUserName());
                 //
                // this.sendMsg("@dace5e50cfca852ef56dffea0485a70b278c9ab58213fbde2aa2d0b012254093","主动发送信息");
+              //图片，【测试失败】
                // this.sendImg("@dace5e50cfca852ef56dffea0485a70b278c9ab58213fbde2aa2d0b012254093","C:/Users/user/Desktop/权限系统/7/培罗成量体ios端/liangtiForPage/liangti/image/icon(0).png");
+               //自动回复微信内容   文本  【测试成功】
                 this.sendMsg(message.getFromUserName(), "自动回复: " + message.getText());
             }
         }
